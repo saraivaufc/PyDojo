@@ -4,9 +4,20 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta name="">
+		
+		<!-- OpenGraph Protocol -->
 		<meta name="author" content="PET-TI  <petccqx@gmail.com>">
-		<meta property="og:image" content="static/img/banner_3.jpg"/>
+		<meta property="og:title" content="PyDojo"/>
+		<meta property="og:site_name" content="PyDojo"/>
+		<meta property="og:type" content="website"/>
+		<meta property="og:url" content="http://www.pydojo.esy.es"/>
+		<meta property="og:description" content="O Coding Dojo é uma prática muito interessante e divertida. O principal objetivo é praticar, aprender e ensinar técnicas de desenvolvimento de software."/>
+
+		<meta property="og:image" content="http://www.pydojo.esy.es/static/img/banner_4.jpg">
+		<meta property="og:image:type" content="image/jpeg">
+		<meta property="og:image:width" content="800">
+		<meta property="og:image:height" content="600">
+
 
 		<title>PyDojo</title>
 
@@ -17,6 +28,8 @@
 		<link href="static/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 		<link href="static/bootstrap/css/bootstrap-theme.min.css" rel="stylesheet">
 
+		<!-- Social Shared Kit-->
+		<link href="static/social-share/css/social-share-kit.css" rel="stylesheet">
 
 		<!-- My Stylesheet -->
 		<link rel="stylesheet" type="text/css" href="static/css/themes.css">
@@ -43,6 +56,8 @@
 	  var js, fjs = d.getElementsByTagName(s)[0];
 	  if (d.getElementById(id)) return;
 	  js = d.createElement(s); js.id = id;
-	  js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.3&appId=1576001965999800";
+	  js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.6";
 	  fjs.parentNode.insertBefore(js, fjs);
 	}(document, 'script', 'facebook-jssdk'));</script>
+	
+	<?php include('modals/share.php'); ?>

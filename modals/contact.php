@@ -1,11 +1,11 @@
-<div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div id="modal-contact" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
   <div class="modal-dialog">
 	<div class="modal-content">
 	  <div class="modal-body">
 
 	  	<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
 		<h3 id="">Gostaríamos muito de ouvir você...</h3>
-		<form class="form-horizontal" name="formContato" method="POST" acton="send_email.php">
+		<form class="form-horizontal" name="formContato" method="POST" action="send_email.php">
           <fieldset>
             
             <div class="form-group">
@@ -31,7 +31,7 @@
     
             <div class="form-group">
               <div class="col-md-12 text-right">
-                <button type="submit" class="btn btn-primary">enviar</button>
+                <button type="submit" class="btn btn-primary">Enviar</button>
               </div>
             </div>
           </fieldset>

@@ -35,13 +35,32 @@
 		<a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
 
 	</div>
-
+	<?php
+		$send_email = $_GET['send_email'];
+		if($send_email == 'TRUE'){
+			?>
+				<div class="alert alert-success">
+					<a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+					<strong>Sucesso!</strong> Sua mensagem foi enviada!. :)
+				</div>
+			<?php
+		}else if($send_email == 'FALSE'){
+			?>
+				<div class="alert alert-danger">
+					<a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+					<strong>Erro!</strong> Sua mensagem não pode ser enviada!, tente novamente mais tarde. :(
+				</div>
+			<?php
+		}
+	?>
 	<div id="section-subscribe" class="text-center	">
 		<a href="formulario_inscricao.php" class="btn btn-primary btn-lg">
 			Inscreva-se aqui
 		</a>
+		<div  class="text-left" style="padding-left: 10px;">
+			<div class="fb-like" data-href="https://www.pydojo.esy.es" data-layout="standard" data-action="like" data-show-faces="true" data-share="false"></div>
+		</div>
 	</div>
-
 	<div class="container-fluid">
 	 	<div id="oevento" class="row featurette">
 			<div class="container-fluid">
@@ -49,12 +68,9 @@
 					<img class="featurette-image img-responsive" src="static/img/img_1.png">
 				</div>
 				<div class="col-md-6 section">
-					<h2 class="">O que é um Coding Dojo?</h2>
+					<h2 class="">O que é?</h2>
 					<p class="lead text-justify">
-						O Coding Dojo é uma reunião de programadores para resolver um problema de maneira cooperativa e inclusiva, criando um programa usando técnicas de Test Driven Developent (TDD) e Pair Programming. Nenhum conhecimento prévio é exigido, só vontade de aprender e interagir com os presentes.
-					</p>
-					<p class="lead text-justify">
-						O Coding Dojo é uma Atividade de Extensão, o que significa que participantes mais assíduos vão poder acumular horas e trocar por créditos complementares. 
+						O PyDojo é uma reunião entre desenvolvedores para aprimorar técnicas e metodologias de programação. Inspirado em fundamentos das artes marciais japonesas um dojo é um local de colaboração e não de competição, onde o principal objetivo é aprender. 
 					</p>
 				</div>
 			</div>
@@ -64,7 +80,7 @@
 			<div class="col-md-6 section">
 				<h2 class="">Porque participar?</h2>
 				<p class="lead text-justify">
-					O Coding Dojo é um ambiente seguro para testar novas ideias, promover o networking e compartilhamento de ideias entre os membros da equipe. É muito comum empresas promoverem Dojos abertos. Dessa forma a empresa pode conhecer profissionais que possam se adequar ao seu ambiente e os profissionais, também tem a oportunidade de conhecer o ambiente dessas empresas.
+					As reuniões permitem que programadores com diversos níveis de experiência possam interagir para melhorar habilidades técnicas e de socialização de maneira informal, além de promover o networking e compartilhamento de ideias entre os membros da equipe.
 				</p>
 			</div>
 			<div class="col-md-6 section-img">
@@ -74,17 +90,17 @@
 
 		<div id="localizacao" class="row featurette">
 			<div class="col-md-6 section-img">
-				<img class="featurette-image img-responsive" src="static/img/img_3.jpg">
+				<img class="featurette-image img-responsive" src="static/img/img_3.png">
 			
 			</div>
 
 			<div class="col-md-6 section">
 				<h2 class="">Qual o objetivo?</h2>
 				<p class="lead text-justify">
-					O intuito de se realizar um Coding Dojo é a diversão. Desafiar programadores com novos problemas, novas linguagens, enfim, buscar novas soluções. O Dojo não é uma competição sobre quem resolve o problema mais rápido, ou qual solução é melhor implementada, mas sim que a solução seja criada atravéz do maior número de individuos possivéis, cada um criando uma pequena parte da solução.
+					O intuito de se realizar essas reuniões é a diversão. Desafiar programadores com novos problemas, enfim, buscar novas soluções. O PyDojo não é uma competição sobre quem resolve o problema mais rápido, ou qual solução é melhor implementada, mas sim que a solução seja criada atravéz do maior número de individuos possivéis, cada um criando uma pequena parte da solução.
 				</p>
 				<p class="lead text-justify">
-					Obviamente o conhecimento obtido durante a execução do Coding Dojo é utilizado pelos programadores nas tarefas de seu dia a dia, o que faz com que a qualidade do trabalho “real” produzido também aumente, de forma indireta, com a realização de Coding Dojos.
+					Obviamente o conhecimento obtido durante a reunião é utilizado pelos programadores nas tarefas de seu dia a dia, o que faz com que a qualidade do trabalho “real” produzido também aumente, de forma indireta, com a realização das reuniões.
 				</p>
 			</div>
 		</div>
@@ -93,7 +109,7 @@
 			<div class="col-md-6 section">
 				<h2 class="">Qual linguagem será utilizada e quais são os problemas propostos?</h2>
 				<p class="lead text-justify">
-					Há Dojos de vários tipos e maneiras por aí. No nosso Dojo, utilizaremos a linguagem Python, uma linguagem simples de se usar, de muito alto nível, material para estudo em pt-br     abrangente(http://turing.com.br/pydoc/2.7/tutorial/index.html) e bastante utilizada nos EUA para ensinar crianças a programar. Serão escolhidos problemas simples e que possibilite que sua solução possa ser fragmentada em vários pedaços, onde será buscado que cada pedaço seja desenvolvido por uma pessoa diferente.
+					No nosso PyDojo, utilizaremos a linguagem Python, uma linguagem simples de se usar, de muito alto nível, material para estudo em pt-br abrangente(<a href="http://turing.com.br/pydoc/2.7/tutorial/index.html" target="_blank">http://turing.com.br/pydoc/2.7/tutorial/index.html</a>) e bastante utilizada nos EUA para ensinar crianças a programar. Serão escolhidos problemas simples e que possibilite que sua solução possa ser fragmentada em vários pedaços, onde será buscado que cada pedaço seja desenvolvido por uma pessoa diferente.
 				</p>
 			</div>
 			<div class="col-md-6 section-img">
@@ -125,7 +141,7 @@
 			<div class="col-md-6 section-img">
 				<h2 class="">Qual o Dia e Horário?</h2>
 				<p class="lead text-justify">
-					As reuniões serão realizadas todas às sextas-feiras das 10 da manhá até o meio-dia. O local das reuniões será a Sala 1 do Bloco II. Sendo que talvez algum dia a reunião seja realizada em algum laboratório. 
+					As reuniões serão realizadas todas às sextas-feiras das 10 da manhá até o meio-dia. O local das reuniões será na Sala 1 do Bloco II. Sendo que talvez algum dia a reunião seja realizada em laboratório. 
 				</p>
 			</div>
 			<div class="col-md-6 section">
@@ -140,14 +156,13 @@
 					Absolutamente nada de programação, apenas vontade de aprender. Agora caso você queira participar ativamente do PyDojo (sendo piloto ou co-piloto) você precisará saber o básico de python (variavéis, condições,laços de repetição e um pouco de funções).
 				</p>
 			</div>
-			<div class="col-md-6 section">
-				<img class="featurette-image img-responsive" src="static/img/img_6.jpg">	
+			<div class="col-md-6 section">	
 			</div>
 		</div>
 
 		<div id="localizacao" class="row featurette">
 			<div class="col-md-6 section-img">
-				<img class="featurette-image img-responsive" src="static/img/img_7.jpg">
+				<img class="featurette-image img-responsive" src="static/img/img_7.png">
 			</div>
 
 			<div class="col-md-6 section">
@@ -162,7 +177,7 @@
 			<div class="col-md-6 section">
 				<h2 class="">Isso pode me ajudar nas minhas disciplinas de programação?</h2>
 				<p class="lead text-justify">
-					Os Coding Dojo  buscam desenvolver a logica de programação de uma maneira divertida e que os conhecimentos adquiridos por único indivíduo se reflita por todos os outros, sendo assim, enquanto você está aprendendo se divertindo, você também estará ensinando outra pessoa. Caso seu professor tenha passado um problema que você não conseguiu resolver e achou ele dificil, você poderá sugerir esse problema para ser atacado no PyDojo, você pode não ter conseguido resolve-lo sozinho, mas com ajuda de várias outras pessoas com certeza ele será resolvido e tanto você quanto as outras pessoas aprenderão muito com esse problema. 
+					As reuniões buscam desenvolver a lógica de programação de uma maneira divertida e que os conhecimentos adquiridos por único indivíduo se reflita por todos os outros, sendo assim, enquanto você está aprendendo se divertindo, você também estará ensinando outra pessoa. Caso seu professor tenha passado um problema que você não conseguiu resolver e achou dificil, você poderá sugerir esse problema para ser atacado em uma reunião, você pode não ter conseguido resolve-lo sozinho, mas com ajuda de várias outras pessoas com certeza ele será resolvido e tanto você quanto as outras pessoas aprenderão muito com esse problema. 
 				</p>
 			</div>
 			<div class="col-md-6 section-img">
@@ -204,7 +219,4 @@
 			</div>
 		</div>
 	</div>
-<?php include('modals/contato.php'); ?>
-
-
 <?php include('footer.php'); ?>

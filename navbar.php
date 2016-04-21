@@ -23,7 +23,7 @@
 					</ul>
 					<ul class="nav navbar-nav navbar-right">
 						<li>
-							<a href="#myModal" role="button" data-toggle="modal">CONTATO</a>
+							<a href="#modal-contact" role="button" data-toggle="modal">Contato</a>
 						</li>
 					</ul>
 				</div>
@@ -32,3 +32,5 @@
 		</div>
 	</div>
 </div>
+
+<?php include('modals/contact.php'); ?>
