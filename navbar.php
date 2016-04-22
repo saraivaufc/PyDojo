@@ -20,6 +20,9 @@
 						<li>
 							<a href="formulario_inscricao.php">Inscrição</a>
 						</li>
+						<li>
+							<a href="https://github.com/saraivaufc/dojos" target="_blank">Github</a>
+						</li>
 					</ul>
 					<ul class="nav navbar-nav navbar-right">
 						<li>

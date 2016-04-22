@@ -57,9 +57,6 @@
 		<a href="formulario_inscricao.php" class="btn btn-primary btn-lg">
 			Inscreva-se aqui
 		</a>
-		<div  class="text-left" style="padding-left: 10px;">
-			<div class="fb-like" data-href="https://www.pydojo.esy.es" data-layout="standard" data-action="like" data-show-faces="true" data-share="false"></div>
-		</div>
 	</div>
 	<div class="container-fluid">
 	 	<div id="oevento" class="row featurette">
