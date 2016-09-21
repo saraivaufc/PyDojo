@@ -67,7 +67,7 @@
 				<div class="col-md-6 section">
 					<h2 class="">O que é?</h2>
 					<p class="lead text-justify">
-						O PyDojo é uma reunião entre desenvolvedores para aprimorar técnicas e metodologias de programação. Inspirado em fundamentos das artes marciais japonesas um dojo é um local de colaboração e não de competição, onde o principal objetivo é aprender. 
+						O PyDojo é uma reunião entre desenvolvedores para aprimorar técnicas e metodologias de programação. Inspirado em fundamentos das artes marciais japonesas um dojo é um local de colaboração e não de competição, onde o principal objetivo é aprender.
 					</p>
 				</div>
 			</div>
@@ -88,7 +88,7 @@
 		<div id="localizacao" class="row featurette">
 			<div class="col-md-6 section-img">
 				<img class="featurette-image img-responsive" src="static/img/img_3.png">
-			
+
 			</div>
 
 			<div class="col-md-6 section">
@@ -122,7 +122,7 @@
 					Programação baseada em testes: Antes de ser escrito uma implementação de código é escrito um teste.  Se você não conhece ou não imagina como é testar um resultado de uma função que ainda não foi criada, o Dojo pode ser uma forma de você se iniciar nessa metodologia e ver quais as vantagens ou desvantagens dela.
 				</li>
 				<li>
-					Passos de bebê: Quando um bebê está aprendendo a caminhar ele não arrisca dar passos grandes por aí. No Dojo acontece da mesma forma. O código vai saindo devagar, ajudando para que todos estejam entendendo o que está acontecendo e que rumo tudo está tomando. Sempre que alguém não estiver entendendo o que está acontecendo, esse tem o direito de perguntar e se encaixar nos trilhos novamente. 
+					Passos de bebê: Quando um bebê está aprendendo a caminhar ele não arrisca dar passos grandes por aí. No Dojo acontece da mesma forma. O código vai saindo devagar, ajudando para que todos estejam entendendo o que está acontecendo e que rumo tudo está tomando. Sempre que alguém não estiver entendendo o que está acontecendo, esse tem o direito de perguntar e se encaixar nos trilhos novamente.
 				</li>
 				<li>
 					Programação em dupla: A programação é feita em dupla. Um piloto e um co-piloto. O piloto, obviamente, coloca a mão na massa, digitando e identando código e testes. O co-piloto palpita, ajuda olhando e apontando onde pode melhorar, o que está errado, etc. Quando esse piloto volta para a platéia após alguns minutos, o co-piloto se torna  piloto e alguém da platéia vem para ajudá-lo no papel de co-piloto. E assim segue.
@@ -138,7 +138,7 @@
 			<div class="col-md-6 section-img">
 				<h2 class="">Qual o Dia e Horário?</h2>
 				<p class="lead text-justify">
-					As reuniões serão realizadas todas às sextas-feiras das 10 da manhá até o meio-dia. O local das reuniões será na Sala 1 do Bloco II. Sendo que talvez algum dia a reunião seja realizada em laboratório. 
+					As reuniões serão realizadas todas às quintas-feiras das 10 da manhá até o meio-dia. O local das reuniões será na Sala do PET Tecnologia da Informação. Sendo que talvez algum dia a reunião seja realizada em laboratório.
 				</p>
 			</div>
 			<div class="col-md-6 section">
@@ -153,7 +153,7 @@
 					Absolutamente nada de programação, apenas vontade de aprender. Agora caso você queira participar ativamente do PyDojo (sendo piloto ou co-piloto) você precisará saber o básico de python (variavéis, condições,laços de repetição e um pouco de funções).
 				</p>
 			</div>
-			<div class="col-md-6 section">	
+			<div class="col-md-6 section">
 			</div>
 		</div>
 
@@ -165,16 +165,16 @@
 			<div class="col-md-6 section">
 				<h2 class="">E se eu não souber nada de python?</h2>
 				<p class="lead text-justify">
-					Você pode ficar na platéia, a escolha de quem da platéia será escolhido para ir ser o co-piloto de uma seção se dará por manifesto próprio das pessoas, ou seja, caso você queira ajudar a resolver o problema, você pode se manifestar e na próxima seção você poderá se tornar piloto, caso contrario, você poderá aprender observando os outros a resolver o problema e talvez numa próxima seção sentir confiança e pedir para virar co-piloto. 
+					Você pode ficar na platéia, a escolha de quem da platéia será escolhido para ir ser o co-piloto de uma seção se dará por manifesto próprio das pessoas, ou seja, caso você queira ajudar a resolver o problema, você pode se manifestar e na próxima seção você poderá se tornar piloto, caso contrario, você poderá aprender observando os outros a resolver o problema e talvez numa próxima seção sentir confiança e pedir para virar co-piloto.
 				</p>
 			</div>
 		</div>
-		
+
 		<div id="premiacao" class="row featurette">
 			<div class="col-md-6 section">
 				<h2 class="">Isso pode me ajudar nas minhas disciplinas de programação?</h2>
 				<p class="lead text-justify">
-					As reuniões buscam desenvolver a lógica de programação de uma maneira divertida e que os conhecimentos adquiridos por único indivíduo se reflita por todos os outros, sendo assim, enquanto você está aprendendo se divertindo, você também estará ensinando outra pessoa. Caso seu professor tenha passado um problema que você não conseguiu resolver e achou dificil, você poderá sugerir esse problema para ser atacado em uma reunião, você pode não ter conseguido resolve-lo sozinho, mas com ajuda de várias outras pessoas com certeza ele será resolvido e tanto você quanto as outras pessoas aprenderão muito com esse problema. 
+					As reuniões buscam desenvolver a lógica de programação de uma maneira divertida e que os conhecimentos adquiridos por único indivíduo se reflita por todos os outros, sendo assim, enquanto você está aprendendo se divertindo, você também estará ensinando outra pessoa. Caso seu professor tenha passado um problema que você não conseguiu resolver e achou dificil, você poderá sugerir esse problema para ser atacado em uma reunião, você pode não ter conseguido resolve-lo sozinho, mas com ajuda de várias outras pessoas com certeza ele será resolvido e tanto você quanto as outras pessoas aprenderão muito com esse problema.
 				</p>
 			</div>
 			<div class="col-md-6 section-img">
